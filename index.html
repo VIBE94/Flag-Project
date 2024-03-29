@@ -6,40 +6,50 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    div{
-      margin-top: -12px;
+
+    /* red rectangle */
+
+    .flag{
+
       background-color: rgb(206, 17, 38);
       height: 600px;
       width: 900px;
+      position: relative;
     }
-    .flag>p{
-      color: white;
-      text-align: center;
-    }
-    div div {
+
+
+
+    /* blue rectangle */
+
+    .flag>div {
       background-color: rgb(0, 40, 104);
       height: 300px;
       width: 900px;
-      position: relative;
-      margin-top: 100px;
+      position: absolute;
+      top:150px;
     }
-    div >div>div{
+    .flag>div>div{
       height: 200px;
       width: 200px;
-      background-color: white;
       border-radius: 50%;
-      position: absolute;
-      margin-left: 350px;
-      margin-top: 50px;
+      background-color: white;
+      position: relative;
+      left: 350px;
+      top: 50px;
     }
+
     p{
-      font-size: 3rem;
+      margin: 0px;
+      font-size: 5rem;
+      text-align: center;
     }
-    div div div p{
-      margin-left: 19px;
-      margin-top: 70px;
-      
-    }
+
+
+   
+
+
+
+    
 
   </style>
 </head>
